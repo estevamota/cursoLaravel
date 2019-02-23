@@ -11,8 +11,8 @@
         {{ csrf_field() }}
 
         <div class="input-field">
-          <input type="text" name="email">
-          <label>E-mail</label>
+          <input type="text" name="login">
+          <label>Login</label>
         </div>
 
         <div class="input-field">

@@ -13,9 +13,10 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
       $dados = [
-        'name'=>"estevamota@gmail.com",
-        'email'=>"estevamota@gmail.com",
-        'password'=>bcrypt("laravel")
+        'name'=>"Administrador",
+        'login'=>"admin",
+        'email'=>"admin@admin.com",
+        'password'=>bcrypt("123456")
       ];
       if(User::where('email','=',$dados['email'])->count()){
         $usuario = User::where('email','=',$dados['email'])->first();
