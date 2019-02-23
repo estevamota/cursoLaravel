@@ -42,3 +42,9 @@ php artisan serve
 ```
 http://localhost:8000
 ```
+
+9) Acesso ao Admin
+```
+Login: admin
+Login: 123456
+```
