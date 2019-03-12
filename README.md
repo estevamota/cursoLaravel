@@ -10,7 +10,7 @@
 
 2) Clonar o repositorio para seu local
 ```
-git git@github.com:estevamota/cursoLaravel.git
+git https://github.com/estevamota/cursoLaravel.git
 ```
 
 3) Acessa para diretorio.
